@@ -69,17 +69,11 @@ li{
     background-position-x: left;       
 }
 
-#servicos{
-    margin: 50px;
+footer{
+    padding: 20px 0px;
+    width: 100%;
+    background-color: var(--preto);
+    color: var(--branco);    
 }
 
-#agenda{
-    margin-right: 50px;
-    display: flex;
-    justify-content: right;
-}
 
-#frase{
-    margin: 50px;
-    font-size: x-large;
-}

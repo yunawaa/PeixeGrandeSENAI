@@ -1,0 +1,56 @@
+#linhapreta{
+    margin: 0%;
+    padding: 10px;
+    background-color: var(--preto);
+}
+
+
+#frase{
+    margin: 30px;
+    font-size: x-large;
+}
+
+#topicos{
+    width: 100%;
+    display: flex;
+}
+
+#servicos, #agenda{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#servicos{
+    width: 70%;
+}
+
+#agenda{
+    width: 30%;
+}
+
+#mapa{
+    width: 80%;
+    background-color: var(--branco);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.assunto{
+    width: 100%;
+    background-color: var(--preto);
+    color: var(--branco);
+    padding: 10px 0px;
+}
+
+p{
+    margin-right: 80px;
+    margin-left: 20px;
+    }
+
+h2{
+    margin-right: 80px;
+    margin-left: 20px;
+}
