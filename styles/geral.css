@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+main{ 
+    height:100vh;
+}
+:root{
+    --cinza : #e8e6e6;
+    --branco : #ffffff;
+    --preto : #000000;
+}
+
+body{    
+    background-color: var(--cinza);
+}
+
+header{
+    margin: 0%;
+    background-color: var(--cinza); 
+}
+
+nav{
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 25px;    
+}
+
+a{
+    color: #000000;
+    display: inline-flex;
+    text-decoration: none;  
+       
+}
+
+ul{
+    display: flex;
+    justify-content: end;
+    gap: 70px;    
+}
+
+li{
+    list-style-type: none;
+    font-size: x-large;
+    font-weight: bold
+}
+
+#banner {
+    margin: 0%;
+    padding: 0%;
+    height: 250px;
+    background-color: var(--branco); 
+    background-image: url(../images/logo_03.gif);
+    background-repeat: no-repeat;
+    background-size: 70% 100%;
+    background-position-y: top;
+    background-position-x: right       
+}
+
+#banner1{
+    height: 100%;
+    width: 30%;
+    background-image: url(../images/logo_02.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position-x: left;       
+}
+
+#servicos{
+    margin: 50px;
+}
+
+#agenda{
+    margin-right: 50px;
+    display: flex;
+    justify-content: right;
+}
+
+#frase{
+    margin: 50px;
+    font-size: x-large;
+}
